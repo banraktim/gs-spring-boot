@@ -7,6 +7,7 @@
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>3.0.0</version>
 		<relativePath/> <!-- lookup parent from repository -->
+	
 	</parent>
 	<groupId>com.example</groupId>
 	<artifactId>spring-boot-complete</artifactId>
@@ -15,13 +16,15 @@
 	<description>Demo project for Spring Boot</description>
 
 
-<properties>
+<!--<properties>
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
         <maven.compiler.release>11</maven.compiler.release>
+</properties>-->
+
+<properties>
+   <java.version>11</java.version>
 </properties>
-
-
 
 <!--	<properties>
 		<java.version>17</java.version>
